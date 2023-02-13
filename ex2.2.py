@@ -54,8 +54,6 @@ for j in range(jsonSize):
    times.append(finalTime)
 
 
-
-
 plt.scatter(length, times)
 plt.title("Length of Array vs. QuickSort Algorithm Time")
 plt.xlabel("Length of Array")
